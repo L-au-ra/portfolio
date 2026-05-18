@@ -73,14 +73,14 @@ body{
   }
   
   body::before {
-    width: 50px;
+    width: 100px;
     background-size: 50px auto;
     height: 150%;
     position: fixed;
   }
   
   body::after {
-    width: 50px;
+    width: 100px;
     background-size: 50px auto;
     height: 110%;
     position: fixed;
