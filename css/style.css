@@ -71,14 +71,14 @@ div {
   body::before {
     width: 50px;
     background-size: 50px auto;
-    height: 100%;
-    position: fixed;
+    height: 110%;
+    position: absolute;
   }
   
   body::after {
     width: 50px;
     background-size: 50px auto;
-    height: 100dvh;
+    height: 110%;
     position: fixed;
   }
   
