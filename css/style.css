@@ -75,7 +75,7 @@ body{
   body::before {
     width: 50px;
     background-size: 50px auto;
-    height: 110%;
+    height: 150%;
     position: fixed;
   }
   
