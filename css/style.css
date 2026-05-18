@@ -3,6 +3,16 @@
     width: 50px; /* smaller width on mobile */
     background-size: 50px auto;
   }
+  
+  .side-image-right {
+    width: 50px;
+    background-size: 50px auto;
+  }
+  
+  div {
+    padding: 0 50px; /* match the new image width */
+  }
+}
 
 h1{
   font-size: 4vw;
