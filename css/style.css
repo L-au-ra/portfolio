@@ -1,4 +1,11 @@
 @media (max-width: 768px) {
+  h1 {
+    font-size: 8vw; /* increase from 6vw */
+  }
+  
+  p {
+    font-size: 3vw; /* increase from 2vw */
+  }
   body::before {
     width: 50px; /* smaller width on mobile */
     background-size: 50px auto;
