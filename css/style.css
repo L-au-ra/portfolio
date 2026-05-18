@@ -20,23 +20,13 @@ body::before {
   background-image: url("../images/ReunaVasen.png");
   background-repeat: repeat-y; /* repeat vertically */
   background-position: top left;
-  background-size: contain;
+  background-size: 100px auto;
   z-index: 1;
   pointer-events: none; /* allows clicking through the image */
 }
 
 .side-image-left {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100px; /* adjust width to match your image */
-  height: auto;
-  background-image: url("../images/ReunaOikea.png");
-  background-repeat: repeat-y;
-  background-position: top right;
-  background-size: contain;
-  z-index: 1;
-  pointer-events: none;
+  display: none; /* hide the individual img element */
 }
 
 .side-image-right {
@@ -44,11 +34,11 @@ body::before {
   top: 0;
   right: 0;
   width: 100px; /* adjust width to match your image */
-  height: auto;
+  height: 100vh;
   background-image: url("../images/ReunaOikea.png");
   background-repeat: repeat-y;
   background-position: top right;
-  background-size: contain;
+  background-size: 100px auto;
   z-index: 1;
   pointer-events: none;
 }
