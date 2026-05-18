@@ -58,7 +58,7 @@ div {
   z-index: 2; /* content appears above the background image */
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 780px) {
   
   h1 {
     font-size: 30vw; 
