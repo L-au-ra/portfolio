@@ -2,11 +2,13 @@
   body::before {
     width: 50px; /* smaller width on mobile */
     background-size: 50px auto;
+    height: 100%;
   }
   
   .side-image-right {
     width: 50px;
     background-size: 50px auto;
+    height: 100%;
   }
   
   div {
