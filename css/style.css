@@ -58,16 +58,16 @@ div {
   z-index: 2; /* content appears above the background image */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1600px) {
   body {
-    border: 5px solid red !important; /* temporary - to see if media query is active */
+    border: 5px solid red; /* temporary - to see if media query is active */
   }
   h1 {
-    font-size: 20vw !important; 
+    font-size: 20vw; 
   }
   
   p {
-    font-size: 16vw !important;
+    font-size: 16vw;
   }
   
   body::before {
