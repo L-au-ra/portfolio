@@ -59,19 +59,17 @@ div {
 }
 
 @media (max-width: 1600px) {
-  body {
-    border: 5px solid red; /* temporary - to see if media query is active */
-  }
+  
   h1 {
     font-size: 20vw; 
   }
   
   p {
-    font-size: 16vw;
+    font-size: 6vw;
   }
   
   body::before {
-    width: 50px; /* smaller width on mobile */
+    width: 50px;
     background-size: 50px auto;
     height: 100dvh;
     position: fixed;
