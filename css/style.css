@@ -15,7 +15,7 @@ body::before {
   position: fixed;
   left: 0;
   top: 0;
-  width: 150px; /* adjust width to match your image */
+  width: 200px; /* adjust width to match your image */
   height: 100vh;
   background-image: url("../images/ReunaVasen.png");
   background-repeat: repeat-y; /* repeat vertically */
@@ -34,7 +34,7 @@ body::after {
   position: fixed;
   right: 0;
   top: 0;
-  width: 150px; /* adjust width to match your image */
+  width: 200px; /* adjust width to match your image */
   height: 100vh;
   background-image: url("../images/ReunaOikea.png");
   background-repeat: repeat-y; /* repeat vertically */
