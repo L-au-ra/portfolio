@@ -7,6 +7,7 @@ h1{
 body {
   background-color: DarkSeaGreen;
   position: relative;
+  min-height: 100vh;
 }
 
 body::before {
@@ -15,7 +16,7 @@ body::before {
   left: 0;
   top: 0;
   width: 100px; /* adjust width to match your image */
-  height: auto;
+  height: 100vh;
   background-image: url("../images/ReunaVasen.png");
   background-repeat: repeat-y; /* repeat vertically */
   background-position: top left;
