@@ -60,14 +60,14 @@ div {
 
 @media (max-width: 768px) {
   body {
-    border: 5px solid red; /* temporary - to see if media query is active */
+    border: 5px solid red !important; /* temporary - to see if media query is active */
   }
   h1 {
-    font-size: 20vw; 
+    font-size: 20vw !important; 
   }
   
   p {
-    font-size: 16vw;
+    font-size: 16vw !important;
   }
   
   body::before {
