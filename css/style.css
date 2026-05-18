@@ -60,11 +60,11 @@ div {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 8vw; /* increase from 6vw */
+    font-size: 10vw; /* increase from 6vw */
   }
   
   p {
-    font-size: 3vw; /* increase from 2vw */
+    font-size: 6vw; /* increase from 2vw */
   }
   
   body::before {
