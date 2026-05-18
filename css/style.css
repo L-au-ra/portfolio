@@ -59,6 +59,9 @@ div {
 }
 
 @media (max-width: 768px) {
+  body {
+    border: 5px solid red; /* temporary - to see if media query is active */
+  }
   h1 {
     font-size: 20vw; 
   }
