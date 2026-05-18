@@ -3,14 +3,14 @@
     width: 50px; /* smaller width on mobile */
     background-size: 50px auto;
     height: 100vh;
-    position: absolute;
+    position: fixed;
   }
   
   .side-image-right {
     width: 50px;
     background-size: 50px auto;
     height: 100vh;
-    position: absolute;
+    position: fixed;
   }
   
   div {
