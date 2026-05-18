@@ -3,10 +3,21 @@ h1{
   font-family: Bahnschrift SemiBold;
   background-color: SeaGreen;
 }
+.side-image-left {
+        position: fixed; /* stays in place while scrolling */
+        top: 50%; /* vertically centered */
+        left: 0;
+        transform: translateY(-50%);
+        width: 100px;
+        height: auto;
+        z-index: 1000; /* stays above content */
+    }
 p{
   font-size: 2vw;
   font-family: Copperplate Gothic Bold;
 }
 body{
   background-color: DarkSeaGreen;
+  <img src="ReunaVasen.png" alt="Left Side" class="side-image-left">
 }
+
