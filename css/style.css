@@ -1,30 +1,3 @@
-@media (max-width: 768px) {
-  h1 {
-    font-size: 8vw; /* increase from 6vw */
-  }
-  
-  p {
-    font-size: 3vw; /* increase from 2vw */
-  }
-  body::before {
-    width: 50px; /* smaller width on mobile */
-    background-size: 50px auto;
-    height: 100dvh;
-    position: fixed;
-  }
-  
-  .side-image-right {
-    width: 50px;
-    background-size: 50px auto;
-    height: 100dvh;
-    position: fixed;
-  }
-  
-  div {
-    padding: 0 50px; /* match the new image width */
-  }
-}
-
 h1{
   font-size: 4vw;
   font-family: Bahnschrift SemiBold;
@@ -71,7 +44,6 @@ body::after {
   pointer-events: none; /* allows clicking through the image */
 }
 
-
 .side-image-right {
   display: none;
 }
@@ -84,4 +56,32 @@ p {
 div {
   position: relative;
   z-index: 2; /* content appears above the background image */
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 8vw; /* increase from 6vw */
+  }
+  
+  p {
+    font-size: 3vw; /* increase from 2vw */
+  }
+  
+  body::before {
+    width: 50px; /* smaller width on mobile */
+    background-size: 50px auto;
+    height: 100dvh;
+    position: fixed;
+  }
+  
+  body::after {
+    width: 50px;
+    background-size: 50px auto;
+    height: 100dvh;
+    position: fixed;
+  }
+  
+  div {
+    padding: 0 50px; /* match the new image width */
+  }
 }
